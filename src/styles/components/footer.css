@@ -1,0 +1,36 @@
+@import url(./global.css);
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--black);
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    margin-top: 10px;
+    width: 60px;
+    height: auto;
+}
+
+footer .footer-left,
+footer .footer-right {
+    margin-bottom: 10px;
+}
+
+footer .footer-right a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+footer .footer-right p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer .footer-right a:hover {
+    text-decoration: underline;
+}
