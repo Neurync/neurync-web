@@ -60,6 +60,7 @@ hr {
 }
 
 .card {
+    align-items: center;
     background-color: var(--primary-soft-color);
     border: var(--primary-color) solid 2px;
     padding: 20px;

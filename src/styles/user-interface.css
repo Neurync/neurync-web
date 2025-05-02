@@ -11,8 +11,8 @@
 
 .profile-picture {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: var(--black) solid 5px;
     border-radius: 50%;
     background-size: cover;
@@ -135,8 +135,8 @@ textarea {
     }
 
     .profile-picture {
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
         margin: 10vh 0;
     }
 
@@ -164,8 +164,8 @@ textarea {
     }
 
     .profile-picture {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     .about-section {
