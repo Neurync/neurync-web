@@ -9,6 +9,10 @@
     margin-left: auto;
 }
 
+#userName{
+    text-decoration: underline;
+}
+
 .profile-picture {
     position: relative;
     width: 200px;
@@ -50,11 +54,20 @@ hr {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.about{
+    font-size: 16px;
+    height: 30vh;
+    line-height: 1.5;
+    color: var(--black);
+    margin: 10px 0;
+}
+
+
 .about-section {
     margin: 1vh 20ch;
     font-size: 20px;
     line-height: 1.5;
-    color: var(--gray);
+    color: var(--black);
     background-color: rgb(191, 243, 232);
     padding: 20px;
     border-radius: 10px;
