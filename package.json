@@ -1,0 +1,26 @@
+{
+	"name": "neurync-web",
+	"version": "1.0.0",
+	"description": "**Neurync** é um sistema integrado desenvolvido como Trabalho de Conclusão de Curso (TCC) com o objetivo de auxiliar alunos neurodivergentes no ambiente escolar, oferecendo ferramentas de comunicação e apoio emocional.",
+	"main": "index.js",
+	"scripts": {
+		"start": "http-server . -p 3000 --fallback 404.html",
+		"dev": "live-server --port=3000 --entry-file=404.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Neurync/neurync-web.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/Neurync/neurync-web/issues"
+	},
+	"homepage": "https://github.com/Neurync/neurync-web#readme",
+	"devDependencies": {
+		"http-server": "^14.1.1",
+		"live-server": "^1.2.2"
+	}
+}

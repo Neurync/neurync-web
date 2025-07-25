@@ -4,290 +4,276 @@
 @import url('./components/global.css');
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    background-color: var(--primary-color);
-    padding: 40px 20px;
-    flex-wrap: wrap;
-    background: linear-gradient(to bottom, var(--primary-color), var(--white));
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	background-color: var(--primary-color);
+	padding: 40px 20px;
+	flex-wrap: wrap;
+	background: linear-gradient(to bottom, var(--primary-color), var(--white));
 }
 
 .hero-text {
-    max-width: 500px;
-    font-size: 40px;
-    color: var(--black);
+	max-width: 500px;
+	font-size: 40px;
+	color: var(--black);
 }
 
 .hero-text a {
-    color: var(--secondary-color);
+	color: var(--secondary-color);
 }
 
 .hero-image img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    border-radius: 20px;
-    width: 50rem;
+	max-width: 100%;
+	display: block;
+	height: auto;
+	border-radius: 20px;
+	width: 50rem;
 }
 
 .funcoes {
-    margin-top: 6rem;
-    text-align: center;
-    padding: 60px 20px;
+	margin-top: 6rem;
+	text-align: center;
+	padding: 60px 20px;
 }
 
 .funcoes h2 {
-    margin-bottom: 40px;
-    font-size: 40px;
-    color: var(--gray);
+	margin-bottom: 40px;
+	font-size: 40px;
+	color: var(--gray);
 }
 
 hr {
-    border: 0;
-    height: 3px;
-    background-color: var(--white);;
-    margin: 20px auto;
-    width: 80%;
+	border: 0;
+	height: 3px;
+	background-color: var(--white);
+	margin: 20px auto;
+	width: 80%;
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
 .card {
-    align-items: center;
-    background-color: var(--primary-soft-color);
-    border: var(--primary-color) solid 2px;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	align-items: center;
+	background-color: var(--primary-soft-color);
+	border: var(--primary-color) solid 2px;
+	padding: 20px;
+	border-radius: 10px;
+	width: 300px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card h3 {
-    font-size: 30px;
-    color: #333;
-    margin-top: 3vh;
-    margin-bottom: 6vh;
+	font-size: 30px;
+	color: #333;
+	margin-top: 3vh;
+	margin-bottom: 6vh;
 }
 
 .app {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 60px 20px;
-    flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	padding: 60px 20px;
+	flex-wrap: wrap;
 }
 
 .app-img img {
-    width: 200px;
-    height: auto;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+	width: 200px;
+	height: auto;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
 }
 
 .app-text {
-    text-align: center;
-    max-width: 400px;
+	text-align: center;
+	max-width: 400px;
 }
 
 .app-text p {
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-
-.btn {
-    background-color: var(--primary-color);
-    color: var(--white);;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
 }
 
 .totem {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 60px 20px;
-    flex-wrap: wrap;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	padding: 60px 20px;
+	flex-wrap: wrap;
 }
 
 .totem-text {
-    max-width: 400px;
-    font-size: 30px;
+	max-width: 400px;
+	font-size: 30px;
 }
 
 .totem-img img {
-    width: 200px;
-    height: auto;
-    border: 2px dashed var(--primary-color);
-    padding: 20px;
+	width: 200px;
+	height: auto;
+	border: 2px dashed var(--primary-color);
+	padding: 20px;
 }
 
-
 @media (max-width: 768px) {
-    header {
-        margin: 0;
-    }
+	header {
+		margin: 0;
+	}
 
-    .logo {
-        margin-left: 0;
-        font-size: 24px;
-    }
+	.logo {
+		margin-left: 0;
+		font-size: 24px;
+	}
 
-    nav a {
-        font-size: 20px;
-        margin-left: 40px;
-    }
+	nav a {
+		font-size: 20px;
+		margin-left: 40px;
+	}
 
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
+	.hero {
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+	}
 
-    .hero-text {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
+	.hero-text {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
 
-    .hero-image img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
+	.hero-image img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+	}
 
-    .funcoes {
-        margin-top: 2rem;
-    }
+	.funcoes {
+		margin-top: 2rem;
+	}
 
-    .funcoes h2 {
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
+	.funcoes h2 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
 
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
+	.cards {
+		flex-direction: column;
+		align-items: center;
+	}
 
+	.app {
+		flex-direction: column;
+		text-align: center;
+	}
 
-    .app {
-        flex-direction: column;
-        text-align: center;
-    }
+	.app-img img {
+		width: 80%;
+		max-width: 350px;
+	}
 
-    .app-img img {
-        width: 80%;
-        max-width: 350px;
-    }
+	.totem {
+		flex-direction: column;
+		text-align: center;
+	}
 
-    .totem {
-        flex-direction: column;
-        text-align: center;
-    }
+	.totem-img img {
+		width: 100%;
+		max-width: 350px;
+	}
 
-    .totem-img img {
-        width: 100%;
-        max-width: 350px;
-    }
+	footer .footer-right {
+		font-size: 14px;
+		text-align: end;
+	}
 
-    footer .footer-right{
-        font-size: 14px;
-        text-align: end;
-    }
+	footer .footer-left,
+	footer .footer-right {
+		margin-bottom: 20px;
+	}
 
-    footer .footer-left,
-    footer .footer-right {
-        margin-bottom: 20px;
-    }
-
-    footer img {
-        width: 50px;
-    }
+	footer img {
+		width: 50px;
+	}
 }
 
-
 @media (max-width: 768px) {
+	#Sobre {
+		display: none;
+	}
 
-    #Sobre {
-        display: none;
-    }
+	hr {
+		width: 1vh;
+		height: 90px;
+		background-color: var(--white);
+		margin: 0 auto;
+	}
 
-    hr {
-        width: 1vh;
-        height: 90px;
-        background-color: var(--white);;
-        margin: 0 auto;
-    }
+	.card {
+		width: 90%;
+		max-height: 20vh;
+		margin-bottom: 20px;
+	}
 
-    .card {
-        width: 90%;
-        max-height: 20vh;
-        margin-bottom: 20px;
-    }
+	.card h3 {
+		font-size: 14px;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 
-    .card h3 {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+	.funcoes .card {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		border: none;
+	}
 
-    .funcoes .card {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        border: none;
-    }
+	.funcoes .card img {
+		margin-right: 0;
+		margin-left: 1vh;
+		width: auto;
+		height: 6vh;
+		margin-top: 2vh;
+		max-width: 80px;
+	}
 
-    .funcoes .card img {
-        margin-right: 0;
-        margin-left: 1vh;
-        width: auto;
-        height: 6vh;
-        margin-top: 2vh;
-        max-width: 80px;
-    }
+	.app {
+		flex-direction: column;
+		gap: 20px;
+	}
 
-    .app {
-        flex-direction: column;
-        gap: 20px;
-    }
+	.app-img img {
+		width: 100%;
+		max-height: 350px;
+	}
 
-    .app-img img {
-        width: 100%;
-        max-height: 350px;
-    }
-    
-    .app-text p {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+	.app-text p {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
 
-    .app-text {
-        font-size: 10px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+	.app-text {
+		font-size: 10px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 
-    .totem {
-        flex-direction: column;
-        gap: 20px;
-    }
+	.totem {
+		flex-direction: column;
+		gap: 20px;
+	}
 
-    .totem-text {
-        font-size: 20px;
-    }
+	.totem-text {
+		font-size: 20px;
+	}
 }

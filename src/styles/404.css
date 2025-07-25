@@ -1,0 +1,19 @@
+@import url(./components/global.css);
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100dvh;
+	width: 100%;
+	color: var(--gray);
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 1.5rem;
+}
+
+img {
+	width: 25rem;
+}
